@@ -1,0 +1,11 @@
+name = "invoice-api"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+
+[vars]
+FIREBASE_PROJECT_ID = "your-firebase-project-id"
+
+# R2 (Phase 2): uncomment when storing logos/PDFs
+# [[r2_buckets]]
+# binding = "R2_BUCKET"
+# bucket_name = "invoice-assets"

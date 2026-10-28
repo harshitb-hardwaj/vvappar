@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-canvas text-ink font-sans; }
+h1,h2,.serif { @apply font-serif; }
+input,select,textarea { @apply bg-white border border-hairline rounded-md px-3 h-10 text-sm w-full outline-none focus:border-primary; }
+textarea { @apply h-auto py-2; }

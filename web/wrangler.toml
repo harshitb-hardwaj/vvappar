@@ -1,0 +1,6 @@
+name = "invoice-web"
+compatibility_date = "2025-06-01"
+# Frontend: deploy via OpenNext Cloudflare adapter:
+#   npx @opennextjs/cloudflare build && wrangler deploy
+[vars]
+NEXT_PUBLIC_API_URL = "https://invoice-api.workers.dev"
